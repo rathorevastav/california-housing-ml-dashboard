@@ -7,6 +7,9 @@ import numpy as np
 import shap
 import matplotlib.pyplot as plt
 
+
+st.write('Files in directory:', os.listdir())
+st.write('Absolute working directory:', os.getcwd())
 # ---------------------------
 # Page + CSS (light professional)
 # ---------------------------
